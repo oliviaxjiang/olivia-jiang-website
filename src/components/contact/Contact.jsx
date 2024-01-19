@@ -1,9 +1,14 @@
 import React from 'react'
 import "./contact.css"
+import HeaderSocials from '../home/HeaderSocials'
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <section className="contact container section" id='contact'>
+            <h2 className="section_title">Contact Me!</h2>
+            <h4 className="section_content contact_content">Feel free to contact me through Github, Linkedin, or Email</h4>
+            <HeaderSocials/>
+        </section>
     )
 }
 export default Contact

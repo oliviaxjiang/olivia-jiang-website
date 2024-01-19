@@ -1,0 +1,51 @@
+const Data = [
+    {
+        id: 1,
+        category: "education",
+        icon: "icon-envelope-letter",
+        year: "2020-2020",
+        title: "title",
+        desc : "worked at XYZ XYZ XYZ",
+    },
+    {
+        id: 2,
+        category: "education",
+        icon: "icon-envelope-letter",
+        year: "2020-2020",
+        title: "title",
+        desc : "worked at XYZ XYZ XYZ",
+    },
+    {
+        id: 3,
+        category: "experience",
+        icon: "icon-briefcase",
+        year: "2020-2020",
+        title: "title",
+        desc : "worked at XYZ XYZ XYZ",
+    },
+    {
+        id: 4,
+        category: "experience",
+        icon: "icon-briefcase",
+        year: "2020-2020",
+        title: "title",
+        desc : "worked at XYZ XYZ XYZ",
+    },
+    {
+        id: 5,
+        category: "experience",
+        icon: "icon-briefcase",
+        year: "2020-2020",
+        title: "title",
+        desc : "worked at XYZ XYZ XYZ",
+    },
+    {
+        id: 6,
+        category: "experience",
+        icon: "icon-briefcase",
+        year: "2020-2020",
+        title: "title",
+        desc : "worked at XYZ XYZ XYZ",
+    },
+];
+export default Data
