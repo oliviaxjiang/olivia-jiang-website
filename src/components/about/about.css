@@ -1,9 +1,17 @@
-.about_container{
-    grid-template-columns: 1fr;
-    justify-content: center;
+.about_container {
+    display: grid;
+    grid-template-columns: minmax(auto, 300px) 1fr;
     align-items: center;
-    column-gap: 1.875rem;
+    column-gap: 2rem; 
 }
+
+.about_img {
+    width: 75%; 
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
 
 .about_data{
     display: grid;
@@ -73,7 +81,7 @@
     display:block;
 }
 
-/* .development{
+/* .cs{
     width:90%;
     background-color: aquamarine;
 } */

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./about.css"
-// import Person from "../../assets/person.jpeg"
-//1:08:20
+import Me from "../../assets/olivia.jpg"
 
 const About = () => {
     return (
@@ -9,18 +8,21 @@ const About = () => {
             <h2 className="section_title">About Me</h2>
 
             <div className="about_container grid">
-                {/* <img src = {Person} alt = "" className='about_img'></img> */}
+                <img src = {Me} alt = "" className='about_img'></img>
                 <div className="about_data grid">
                     <div className="about_info">
-                        <p className="about_description">I am Olivia Jiang, a computer science student at Cornell University</p>
+                        <p className="about_description">
+                        Hi, I'm a sophomore at Cornell majoring in CS with minors in ORIE and Business, passionately driven by innovative technologies and dedicated to continuous learning.
+                        At Cornell, I am part of Women's Club Water Polo and ORIE Undergraduate Research.
+                        </p>
                         <a href="" className="btn">Download Resume</a>
                     </div>
 
                     <div className="about_skills grid">
                         <div className="skills_data">
                             <div className="skills_titles">
-                                <h3 className="skills_name">Development</h3>
-                                <span className="skills_number development">100%</span>
+                                <h3 className="skills_name">Computer Science</h3>
+                                <span className="skills_number cs">Major</span>
                             </div>
 
                             <div className="skills_bar">
@@ -30,8 +32,8 @@ const About = () => {
 
                         <div className="skills_data">
                             <div className="skills_titles">
-                                <h3 className="skills_name">OR</h3>
-                                <span className="skills_number or">100%</span>
+                                <h3 className="skills_name">Operations Research and Information Engineering</h3>
+                                <span className="skills_number or">Minor</span>
                             </div>
 
                             <div className="skills_bar">
@@ -43,8 +45,34 @@ const About = () => {
 
                         <div className="skills_data">
                             <div className="skills_titles">
-                                <h3 className="skills_name">Swimming</h3>
-                                <span className="skills_number swimming">100%</span>
+                                <h3 className="skills_name">Business</h3>
+                                <span className="skills_number business">Minor</span>
+                            </div>
+
+                            <div className="skills_bar">
+                                <spans className="skills_percentage">
+
+                                </spans>
+                            </div>
+                        </div>
+
+                        <div className="skills_data">
+                            <div className="skills_titles">
+                                <h3 className="skills_name">Club Water Polo</h3>
+                                <span className="skills_number business"></span>
+                            </div>
+
+                            <div className="skills_bar">
+                                <spans className="skills_percentage">
+
+                                </spans>
+                            </div>
+                        </div>
+
+                        <div className="skills_data">
+                            <div className="skills_titles">
+                                <h3 className="skills_name">Undergraduate Research</h3>
+                                <span className="skills_number business"></span>
                             </div>
 
                             <div className="skills_bar">
