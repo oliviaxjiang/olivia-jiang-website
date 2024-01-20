@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css"
 import Me from "../../assets/olivia.jpg"
+import Resume from "../../assets/Olivia-Jiang-Resume.pdf"
 
 const About = () => {
     return (
@@ -15,7 +16,7 @@ const About = () => {
                         Hi, I'm a sophomore at Cornell majoring in CS with minors in ORIE and Business, passionately driven by innovative technologies and dedicated to continuous learning.
                         At Cornell, I am part of Women's Club Water Polo and ORIE Undergraduate Research.
                         </p>
-                        <a href="" className="btn">Download Resume</a>
+                        <a href={Resume} className="btn" download>Download Resume</a>
                     </div>
 
                     <div className="about_skills grid">

@@ -5,10 +5,10 @@
 :root{
   /*colors*/
   /*color mode HSL(hue,saturation,lightness)*/
-  --first-color: hsl(353,100%,65%);
+  --first-color: #0080FE;
   --title-color: hsl(244,24%, 26%);
   --text-color: hsl(244,16%, 43%);
-  --body-color: hsl(258,60%, 98%);
+  --body-color: #ADD8E6;
   --container-color: #fff;
 
   /*fonts*/

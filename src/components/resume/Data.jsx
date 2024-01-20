@@ -5,7 +5,7 @@ const Data = [
         icon: "icon-envelope-letter",
         year: "2026-2026",
         title: "Cornell University",
-        desc : "I aspire to complete a Masters of Engineering at Cornell through the early admit program.",
+        desc : "I aspire to complete a Masters of Engineering at Cornell through the early admit program",
         
     },
     {
@@ -14,7 +14,7 @@ const Data = [
         icon: "icon-envelope-letter",
         year: "2022-2026",
         title: "Cornell University",
-        desc : "Pursuing a Bachelor's of Science of Computer Science with minors in Operations Research and Business. College of Engineering Dean's List Recipient.",
+        desc : "Pursuing a Bachelor's of Science of Computer Science with minors in Operations Research and Business. College of Engineering Dean's List Recipient",
     },
     {
         id: 2.5,
@@ -22,7 +22,7 @@ const Data = [
         icon: "icon-envelope-letter",
         year: "2018-2022",
         title: "Foothill High School",
-        desc : "Athelete for Foothill's Swim Team and Water Polo Team, President of CAYA, Member of Foothill We the People.",
+        desc : "Athelete for Foothill's Swim Team and Water Polo Team, President of CAYA, Member of Foothill We the People",
     },
     {
         id: 3,
@@ -46,7 +46,7 @@ const Data = [
         icon: "icon-briefcase",
         year: "2024-Present",
         title: "AEW Facilitator for CS 3110",
-        desc : "Some responsibilities include organize workshops and elucidate concepts",
+        desc : "Responsibilities include organize workshops and elucidate concepts",
     },
     {
         id: 6,
