@@ -17,7 +17,7 @@ const Data = [
         desc : "Pursuing a Bachelor's of Science of Computer Science with minors in Operations Research and Business. College of Engineering Dean's List Recipient",
     },
     {
-        id: 2.5,
+        id: 3,
         category: "education",
         icon: "icon-envelope-letter",
         year: "2018-2022",
@@ -25,20 +25,12 @@ const Data = [
         desc : "Athelete for Foothill's Swim Team and Water Polo Team, President of CAYA, Member of Foothill We the People",
     },
     {
-        id: 3,
-        category: "experience",
-        icon: "icon-briefcase",
-        year: "2023-Present",
-        title: "Frontend Developer Intern @ FoodCLUB",
-        desc : "Working at FoodCLUB as an Android frontend developer intern",
-    },
-    {
         id: 4,
         category: "experience",
         icon: "icon-briefcase",
-        year: "2023-Present",
-        title: "ORIE Undergraduate Researcher",
-        desc : "Working under Professor Nelson and Professor Henderson to optimize a decentralized approach toward biochar pyrolysis in Kisumu, Kenya",
+        year: "2024-Present",
+        title: "Software Engineering Intern @ Azure Biosystems",
+        desc : "Revitalized the ChemiSOLO product web page with Vue.js",
     },
     {
         id: 5,
@@ -52,9 +44,17 @@ const Data = [
         id: 6,
         category: "experience",
         icon: "icon-briefcase",
-        year: "2020-2020",
-        title: "Frontend Developer @ Alternative Peru",
-        desc : "Spearheaded the creation of Alternative Peru’s Chinese web application by JavaScript, HTML5, and CSS",
+        year: "2023-2024",
+        title: "Android Frontend Intern @ FoodCLUB",
+        desc : "Working at FoodCLUB as an Android frontend developer intern",
+    },
+    {
+        id: 7,
+        category: "experience",
+        icon: "icon-briefcase",
+        year: "2023-2024",
+        title: "ORIE Undergraduate Researcher",
+        desc : "Working under Professor Nelson and Professor Henderson to optimize a decentralized approach toward biochar pyrolysis in Kisumu, Kenya",
     },
 ];
 export default Data
