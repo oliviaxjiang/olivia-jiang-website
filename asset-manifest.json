@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/olivia-jiang-website/static/css/main.6f28c914.css",
-    "main.js": "/olivia-jiang-website/static/js/main.44d2a06c.js",
+    "main.css": "/olivia-jiang-website/static/css/main.e69896da.css",
+    "main.js": "/olivia-jiang-website/static/js/main.a703cd18.js",
     "static/js/787.8e7f92ec.chunk.js": "/olivia-jiang-website/static/js/787.8e7f92ec.chunk.js",
     "static/media/alternativeperu.jpg": "/olivia-jiang-website/static/media/alternativeperu.458defecbb207a0192ba.jpg",
     "static/media/research.jpg": "/olivia-jiang-website/static/media/research.665b7651cb46fb62f674.jpg",
@@ -14,14 +14,15 @@
     "static/media/gdiaclogo.png": "/olivia-jiang-website/static/media/gdiaclogo.a39fe6e81ef081914893.png",
     "static/media/Olivia-Jiang-Resume.pdf": "/olivia-jiang-website/static/media/Olivia-Jiang-Resume.7a038fa7a116e993e57b.pdf",
     "static/media/githublogo.png": "/olivia-jiang-website/static/media/githublogo.43e4321025d70241c2d2.png",
+    "static/media/googleplaylogo.png": "/olivia-jiang-website/static/media/googleplaylogo.eb9fcd76b261c0644515.png",
     "static/media/logo.svg": "/olivia-jiang-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/olivia-jiang-website/index.html",
-    "main.6f28c914.css.map": "/olivia-jiang-website/static/css/main.6f28c914.css.map",
-    "main.44d2a06c.js.map": "/olivia-jiang-website/static/js/main.44d2a06c.js.map",
+    "main.e69896da.css.map": "/olivia-jiang-website/static/css/main.e69896da.css.map",
+    "main.a703cd18.js.map": "/olivia-jiang-website/static/js/main.a703cd18.js.map",
     "787.8e7f92ec.chunk.js.map": "/olivia-jiang-website/static/js/787.8e7f92ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f28c914.css",
-    "static/js/main.44d2a06c.js"
+    "static/css/main.e69896da.css",
+    "static/js/main.a703cd18.js"
   ]
 }
