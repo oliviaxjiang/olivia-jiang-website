@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ProjectDetails.css";
+import HeaderSocials from '../home/HeaderSocials'
 
 const ProjectDetails = ({ isOpen, details, onClose }) => {
     if (!isOpen) return null;
@@ -7,7 +8,7 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
 
     return (
         <div className="modal-overlay">
-            <div className="modal-container" style={{ backgroundColor: details.backgroundcolor }}>
+            <div className="modal-container" style={{ backgroundColor: details.backgroundColor }}>
                 {/* if X is pressed, onClose is called and onClose in Portfolio.jsx sets isOpen to false, 
                 this function then returns null */}
                 <button className="modal-close-button" onClick={onClose}>X</button>
@@ -20,10 +21,11 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
                             details.links && details.links.map( (elem) =>{
                                 const{link,logo,desc} = elem;
                                 return(
-                                    <div className="details-link">
-                                        <a href={link} className="">
-                                        <img src={logo} alt="logo" className=""/>
-                                        {desc}
+                                    <div className="details-link" key={link}>
+                                        <a href={link} className="" style={{ backgroundColor: details.linkBackground }}>
+                                            <img src={logo} alt="logo" className="" />
+                                            <div className="details-link-text">{desc}
+                                                </div>
                                         </a>
                                     </div>
                             )}
@@ -31,7 +33,19 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
                         )}
                         </div>
                     </div>
-                    <p>{details.summary}</p>
+                    <p>{details.summary} </p>
+                    <div className="tech-stack-container" style={{ borderColor: details.linkBackground }}>
+                        <p>Role: {details.role}</p>
+                        <div>
+                            {details.techstack && details.techstack.map((tech, index) => (
+                                <span className="tech-item" key={index}>{tech}</span>
+                            ))}
+                        </div>
+                    
+                    </div>
+                    <p className="">Feel free to contact me through Github, Linkedin, or Email. I'd love to discuss details to this project!</p>
+                    <HeaderSocials/>
+                    <div className='padding'></div>
                 </div>
             </div>
         </div>
