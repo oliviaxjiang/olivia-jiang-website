@@ -81,7 +81,11 @@
     display:block;
 }
 
-/* .cs{
-    width:90%;
-    background-color: aquamarine;
-} */
+.clickable-text {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.clickable-text:hover {
+    text-decoration: none;
+}

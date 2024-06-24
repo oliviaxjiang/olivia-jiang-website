@@ -4,6 +4,12 @@ import Me from "../../assets/olivia.jpg"
 import Resume from "../../assets/Olivia-Jiang-Resume.pdf"
 
 const About = () => {
+    const handleScroll = () => {
+        const projectsSection = document.getElementById('work');
+        if (projectsSection) {
+            projectsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <section className="about container section" id = 'about'>
             <h2 className="section_title">About Me</h2>
@@ -13,8 +19,9 @@ const About = () => {
                 <div className="about_data grid">
                     <div className="about_info">
                         <p className="about_description">
-                        Hi, I'm a sophomore at Cornell majoring in CS with minors in ORIE and Business, passionately driven by innovative technologies and dedicated to continuous learning.
-                        At Cornell, I am part of Women's Club Water Polo and ORIE Undergraduate Research.
+                            Hi, I'm a rising junior at Cornell majoring in Computer Science minoring in Operations Research.
+                            Feel free to check out my <span className="clickable-text" onClick={handleScroll}>projects</span> below!
+                            At Cornell, I am part of the <a href="https://www.cornellappdev.com" className="clickable-text" target="_blank" rel="noopener noreferrer">AppDev Project Team</a> and have helped thousands of students with apps that make everyday lives easier!
                         </p>
                         <a href={Resume} className="btn" download>Download Resume</a>
                     </div>
