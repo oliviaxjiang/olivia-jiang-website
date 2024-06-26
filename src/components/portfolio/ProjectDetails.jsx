@@ -6,6 +6,13 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
     if (!isOpen) return null;
     console.log(details);
 
+    const summaryParagraphs = details.summary.split("\n").map((paragraph, index) => (
+        <div key={index}>
+            <p>{paragraph}</p>
+            {index !== details.summary.split("\n").length - 1 && <div className="paragraph-spacer"></div>}
+        </div>
+    ));
+
     return (
         <div className="modal-overlay">
             <div className="modal-container" style={{ backgroundColor: details.backgroundColor }}>
@@ -13,7 +20,7 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
                 this function then returns null */}
                 <button className="modal-close-button" onClick={onClose}>X</button>
                 <div className="modal-content">
-                    <img src={details.banner} alt={details.title} />
+                    {details.banner && (<img src={details.banner} alt={details.title} />)}
                     <div className="details-title">
                         <h2>{details.title}</h2> 
                         <div className='details-links'>
@@ -22,7 +29,7 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
                                 const{link,logo,desc} = elem;
                                 return(
                                     <div className="details-link" key={link}>
-                                        <a href={link} className="" style={{ backgroundColor: details.linkBackground }}>
+                                        <a href={link} className="" target="_blank" rel="noopener noreferrer" style={{ backgroundColor: details.linkBackground }}>
                                             <img src={logo} alt="logo" className="" />
                                             <div className="details-link-text">{desc}
                                                 </div>
@@ -33,7 +40,7 @@ const ProjectDetails = ({ isOpen, details, onClose }) => {
                         )}
                         </div>
                     </div>
-                    <p>{details.summary} </p>
+                    {summaryParagraphs}
                     <div className="tech-stack-container" style={{ borderColor: details.linkBackground }}>
                         <p>Role: {details.role}</p>
                         <div>

@@ -37,6 +37,7 @@
     margin-top: 20px;
     max-height: 80vh;
     overflow-y: auto;
+    color: #3b3b3b;
 }
 
 .modal-content h2, .modal-content img, .modal-content p {
@@ -56,19 +57,19 @@
 }
 
 .details-links{
-    display: flex; /* Ensures flexbox is used */
-    flex-direction: row; /* Aligns children horizontally */
-    flex-wrap: wrap; /* Allows items to wrap as needed */
-    align-items: center; /* Centers items vertically */
-    justify-content: start; /* Aligns items to the start of the container */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
 }
 
 .details-link {
-    margin: 10px 0;
+    margin: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 5px;
+    padding-left: 2px;
     padding-right: 5px;
 }
 
@@ -108,9 +109,12 @@
     background-color: rgba(255, 255, 255, 0.1);
     padding: 5px 10px;
     border-radius: 5px;
-    color: black;
 }
 
 .padding{
     padding: 30px;
+}
+
+.paragraph-spacer {
+    margin-bottom: 20px;
 }

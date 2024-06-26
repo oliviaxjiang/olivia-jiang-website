@@ -52,7 +52,7 @@ const Portfolio = () => {
                             <span className="work_category">{category}</span>
                             <h3 className="work_title">{title}</h3>
                             <div className ="work_bott">
-                                <a href={link} className="work_button">
+                                <a href={link} className="work_button" target="_blank" rel="noopener noreferrer">
                                 <i className="icon-link work_button-icon"></i>
                                 </a>
                                 <a className="read_more_button" onClick={() => openModal(detail)}>
