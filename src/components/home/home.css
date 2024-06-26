@@ -88,3 +88,41 @@
     animation:ani-mouse 2s linear infinite;
 
 }
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards; 
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .home_name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+    animation: slideIn 1s forwards;
+  }
+  
+  .home_education {
+    font-size: var(--small-font-size);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .home_rest {
+    font-size: var(--small-font-size);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1.5s;
+  }
+  
